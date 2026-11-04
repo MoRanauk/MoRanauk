@@ -1,33 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="310" viewBox="0 0 720 310" role="img" aria-label="Four frontends send requests to one Pyfon API, which reads and writes a PostgreSQL database">
-<rect x="0.5" y="0.5" width="719" height="309" rx="10" fill="#0d1117" stroke="#30363d"/>
-<rect x="30" y="30" width="180" height="46" rx="8" fill="#161b22" stroke="#58a6ff" stroke-opacity="0.6"/>
-<text x="46" y="50" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">M &amp; Co. Brands</text>
-<text x="46" y="66" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">storefront</text>
-<path d="M210,53 C262,53 258,155 310,155" fill="none" stroke="#30363d" stroke-width="2"/>
-<rect x="30" y="98" width="180" height="46" rx="8" fill="#161b22" stroke="#58a6ff" stroke-opacity="0.6"/>
-<text x="46" y="118" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Pyfon Gift Hub</text>
-<text x="46" y="134" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">storefront</text>
-<path d="M210,121 C262,121 258,155 310,155" fill="none" stroke="#30363d" stroke-width="2"/>
-<rect x="30" y="166" width="180" height="46" rx="8" fill="#161b22" stroke="#58a6ff" stroke-opacity="0.6"/>
-<text x="46" y="186" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">TriM Atelier</text>
-<text x="46" y="202" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">storefront</text>
-<path d="M210,189 C262,189 258,155 310,155" fill="none" stroke="#30363d" stroke-width="2"/>
-<rect x="30" y="234" width="180" height="46" rx="8" fill="#161b22" stroke="#d2a8ff" stroke-opacity="0.6"/>
-<text x="46" y="254" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">M3 Labs</text>
-<text x="46" y="270" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">partner dashboard</text>
-<path d="M210,257 C262,257 258,155 310,155" fill="none" stroke="#30363d" stroke-width="2"/>
-<path d="M460,155 L560,155" fill="none" stroke="#30363d" stroke-width="2"/>
-<rect x="310" y="100" width="150" height="110" rx="10" fill="#161b22" stroke="#3fb950" stroke-opacity="0.7"/>
-<text x="385" y="148" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">Pyfon API</text>
-<text x="385" y="168" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Node.js + Express</text>
-<text x="385" y="185" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">hosted on Render</text>
-<rect x="560" y="100" width="130" height="110" rx="10" fill="#161b22" stroke="#e3b341" stroke-opacity="0.7"/>
-<text x="625" y="148" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">PostgreSQL</text>
-<text x="625" y="168" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">on Neon</text>
-<circle r="4.5" fill="#58a6ff" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="2.8s" begin="0.0s" repeatCount="indefinite" path="M210,53 C262,53 258,155 310,155"/></circle>
-<circle r="4.5" fill="#58a6ff" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="2.8s" begin="0.7s" repeatCount="indefinite" path="M210,121 C262,121 258,155 310,155"/></circle>
-<circle r="4.5" fill="#58a6ff" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="2.8s" begin="1.4s" repeatCount="indefinite" path="M210,189 C262,189 258,155 310,155"/></circle>
-<circle r="4.5" fill="#d2a8ff" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="2.8s" begin="2.0999999999999996s" repeatCount="indefinite" path="M210,257 C262,257 258,155 310,155"/></circle>
-<circle r="4.5" fill="#3fb950" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="1.5s" begin="0.3s" repeatCount="indefinite" path="M460,155 L560,155"/></circle>
-<circle r="4.5" fill="#3fb950" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="1.5s" begin="1.05s" repeatCount="indefinite" path="M460,155 L560,155"/></circle>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="426" viewBox="0 0 720 426" role="img" aria-label="Six apps send requests to one Pyfon API, which reads and writes a PostgreSQL database">
+<rect x="0.5" y="0.5" width="719" height="425" rx="10" fill="#0d1117" stroke="#30363d"/>
+<rect x="30" y="20" width="180" height="46" rx="8" fill="#161b22" stroke="#58a6ff" stroke-opacity="0.6"/>
+<text x="46" y="40" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">M &amp; Co. Brands</text>
+<text x="46" y="56" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">storefront</text>
+<path d="M210,43 C262,43 258,213 310,213" fill="none" stroke="#30363d" stroke-width="2"/>
+<rect x="30" y="88" width="180" height="46" rx="8" fill="#161b22" stroke="#58a6ff" stroke-opacity="0.6"/>
+<text x="46" y="108" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Pyfon Gift Hub</text>
+<text x="46" y="124" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">storefront</text>
+<path d="M210,111 C262,111 258,213 310,213" fill="none" stroke="#30363d" stroke-width="2"/>
+<rect x="30" y="156" width="180" height="46" rx="8" fill="#161b22" stroke="#58a6ff" stroke-opacity="0.6"/>
+<text x="46" y="176" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">TriM Atelier</text>
+<text x="46" y="192" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">storefront</text>
+<path d="M210,179 C262,179 258,213 310,213" fill="none" stroke="#30363d" stroke-width="2"/>
+<rect x="30" y="224" width="180" height="46" rx="8" fill="#161b22" stroke="#d2a8ff" stroke-opacity="0.6"/>
+<text x="46" y="244" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">M3 Labs</text>
+<text x="46" y="260" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">partner portal</text>
+<path d="M210,247 C262,247 258,213 310,213" fill="none" stroke="#30363d" stroke-width="2"/>
+<rect x="30" y="292" width="180" height="46" rx="8" fill="#161b22" stroke="#f0883e" stroke-opacity="0.6"/>
+<text x="46" y="312" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Dealer</text>
+<text x="46" y="328" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">dealer app</text>
+<path d="M210,315 C262,315 258,213 310,213" fill="none" stroke="#30363d" stroke-width="2"/>
+<rect x="30" y="360" width="180" height="46" rx="8" fill="#161b22" stroke="#db61a2" stroke-opacity="0.6"/>
+<text x="46" y="380" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Studio</text>
+<text x="46" y="396" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">website builder</text>
+<path d="M210,383 C262,383 258,213 310,213" fill="none" stroke="#30363d" stroke-width="2"/>
+<path d="M460,213 L560,213" fill="none" stroke="#30363d" stroke-width="2"/>
+<rect x="310" y="158" width="150" height="110" rx="10" fill="#161b22" stroke="#3fb950" stroke-opacity="0.7"/>
+<text x="385" y="206" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">Pyfon API</text>
+<text x="385" y="226" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Node.js + Express</text>
+<text x="385" y="243" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">hosted on Render</text>
+<rect x="560" y="158" width="130" height="110" rx="10" fill="#161b22" stroke="#e3b341" stroke-opacity="0.7"/>
+<text x="625" y="206" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3">PostgreSQL</text>
+<text x="625" y="226" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">on Neon</text>
+<circle r="4.5" fill="#58a6ff" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="2.8s" begin="0.00s" repeatCount="indefinite" path="M210,43 C262,43 258,213 310,213"/></circle>
+<circle r="4.5" fill="#58a6ff" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="2.8s" begin="0.45s" repeatCount="indefinite" path="M210,111 C262,111 258,213 310,213"/></circle>
+<circle r="4.5" fill="#58a6ff" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="2.8s" begin="0.90s" repeatCount="indefinite" path="M210,179 C262,179 258,213 310,213"/></circle>
+<circle r="4.5" fill="#d2a8ff" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="2.8s" begin="1.35s" repeatCount="indefinite" path="M210,247 C262,247 258,213 310,213"/></circle>
+<circle r="4.5" fill="#f0883e" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="2.8s" begin="1.80s" repeatCount="indefinite" path="M210,315 C262,315 258,213 310,213"/></circle>
+<circle r="4.5" fill="#db61a2" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="2.8s" begin="2.25s" repeatCount="indefinite" path="M210,383 C262,383 258,213 310,213"/></circle>
+<circle r="4.5" fill="#3fb950" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="1.5s" begin="0.3s" repeatCount="indefinite" path="M460,213 L560,213"/></circle>
+<circle r="4.5" fill="#3fb950" visibility="hidden"><set attributeName="visibility" to="visible" begin="0s"/><animateMotion dur="1.5s" begin="1.05s" repeatCount="indefinite" path="M460,213 L560,213"/></circle>
 </svg>
