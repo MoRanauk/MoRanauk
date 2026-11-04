@@ -44,4 +44,4 @@ BSc Human Anatomy, with undergraduate research on maternal aflatoxin B1 exposure
 
 ## Connect
 
-[LinkedIn](ADD-YOUR-LINK) · [Email](mailto:ADD-YOUR-EMAIL) · [Blog](ADD-YOUR-LINK)
+[LinkedIn](ADD-YOUR-LINK) · [Email](mailto:moranauk@gmail.com) · [Blog](https://empearls.beehiiv.com/?close_draft_preview=true)
