@@ -10,23 +10,24 @@ I'm a medical student and BSc Human Anatomy graduate from the University of Nair
 
 ## Flagship project: Pyfon
 
-[**Pyfon**](https://github.com/MoRanauk/pyfon) is a platform for a printing and branding business. A single Node.js backend serves every frontend, so products, orders and customers are shared across the whole system. Three customer storefronts take the orders, and a partner dashboard lets the team manage jobs and message customers.
+[**Pyfon**](https://github.com/MoRanauk/pyfon) is a platform for a printing and branding business. A single Node.js backend serves every app: three customer storefronts, a partner portal, a dealer app and a website builder. Customers order on the storefronts, partners approve each job step by step in the portal, outside dealers take on specialist work, and the studio lets a developer customize the shops by drag and drop.
 
 <div align="center">
 
-<img src="assets/architecture.svg" alt="Four frontends send requests to one Pyfon API, which reads and writes a PostgreSQL database" width="720">
+<img src="assets/architecture.svg" alt="Six apps send requests to one Pyfon API, which reads and writes a PostgreSQL database" width="720">
 
 </div>
 
-Every part of it is live:
+Every app is live:
 
 | App | What it does |
 |---|---|
-| [M & Co. Brands](https://pyfon-mco.moranauk.workers.dev/) | Customer storefront |
+| [M & Co. Brands](https://pyfon-mco.moranauk.workers.dev/) | Customer storefront for printed and branded products |
 | [Pyfon Gift Hub](https://pyfon-gifthub.moranauk.workers.dev/) | Customer storefront for gifts |
 | [TriM Atelier](https://pyfon-trimatelier.moranauk.workers.dev/) | Customer storefront for jewellery, timepieces and fragrance |
-| [M3 Labs](https://pyfonlab.moranauk.workers.dev/) | Partner dashboard: jobs, approvals and customer messaging |
-| [Studio](https://pyfon-studio.moranauk.workers.dev/) | Developer studio with a drag-and-drop page builder |
+| [M3 Labs](https://pyfonlab.moranauk.workers.dev/) | Partner portal: jobs, approvals and customer messaging |
+| [Dealer](https://pyfon-dealer.moranauk.workers.dev/) | Portal for outside dealers who take on specialist jobs |
+| [Studio](https://pyfon-studio.moranauk.workers.dev/) | Website builder with a drag-and-drop canvas |
 
 **Built with:** Node.js, Express, React, Vite, PostgreSQL on Neon, with the backend on Render and the frontends on Cloudflare.
 
