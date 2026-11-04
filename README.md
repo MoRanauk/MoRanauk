@@ -6,7 +6,7 @@
 
 ## Hi, I'm Ezra 👋
 
-I'm a medical student and BSc Human Anatomy graduate from the University of Nairobi. I build the software behind small businesses: backend APIs, storefronts and the dashboards that run them. My long-term goal is to bring the same approach to healthcare.
+I'm a medical student and BSc Human Anatomy graduate from the University of Nairobi. I design and ship software with AI assistance for small businesses: backend APIs, storefronts and the dashboards that run them. My long-term goal is to bring the same approach to healthcare.
 
 ## Flagship project: Pyfon
 
